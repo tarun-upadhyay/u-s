@@ -3,11 +3,15 @@ const { default: mongoose } = require("mongoose");
 const UrlSchema = new mongoose.Schema(
   {
     shortId: { type: String, required: true, unique: true },
+    title: {
+      type: String,
+      required: [true, "Please provide title of url"],
+    },
     redirectURL: {
       type: String,
       required: true,
     },
-    userEmail: {
+    createdBy: {
       type: String,
       required: [true, "Please login i don't email"],
       ref: "User",
