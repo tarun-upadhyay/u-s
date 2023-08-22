@@ -1,0 +1,25 @@
+{
+  "name": "urlshortnerbackned",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "express-rate-limit": "^6.9.0",
+    "helmet": "^7.0.0",
+    "http-status-code": "^2.1.0",
+    "moment": "^2.29.4",
+    "mongoose": "^7.4.3",
+    "nodemon": "^3.0.1",
+    "xss-clean": "^0.1.4"
+  }
+}
