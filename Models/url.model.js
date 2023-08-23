@@ -6,6 +6,7 @@ const UrlSchema = new mongoose.Schema(
     title: {
       type: String,
       required: [true, "Please provide title of url"],
+      unique: true,
     },
     redirectURL: {
       type: String,
